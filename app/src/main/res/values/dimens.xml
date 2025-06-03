@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="margin_wide" unit="dp">16</dimen>
+    <dimen name="margin_half" unit="dp">8</dimen>
+    <dimen name="box_text_size" unit="sp">24</dimen>
+
+</resources>
