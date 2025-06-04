@@ -3,7 +3,7 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     style="@style/WhiteBox"
-    android:layout_width="wrap_content"
+    android:layout_width="match_parent"
     android:layout_height="wrap_content"
     android:layout_marginStart="16dp"
     android:layout_marginTop="16dp"
@@ -13,16 +13,20 @@
 
     <TextView
         android:id="@+id/box_one_text"
-        android:layout_width="409dp"
-        android:layout_height="23dp"
-        android:layout_marginBottom="148dp"
+        style="@style/WhiteBox"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="16dp"
         android:background="#4CAF50"
         android:fontFamily="casual"
         android:text="@string/box_one_text"
         android:textAlignment="center"
         android:textColor="@color/white"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent" />
+        app:layout_constraintBottom_toTopOf="@+id/box_three_text"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
         android:id="@+id/box_two_text"
@@ -55,7 +59,7 @@
         style="@style/WhiteBox"
         android:layout_width="0dp"
         android:layout_height="26dp"
-        android:layout_marginStart="54dp"
+        android:layout_marginStart="37dp"
         android:layout_marginTop="16dp"
         android:layout_marginEnd="16dp"
         android:layout_marginBottom="16dp"
