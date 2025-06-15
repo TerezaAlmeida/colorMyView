@@ -40,10 +40,8 @@
         android:layout_marginTop="60dp"
         android:text="@string/box_two_text"
         android:textSize="24sp"
-        android:visibility="visible"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        tools:visibility="visible" />
+        app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
         android:id="@+id/box_three_text"
